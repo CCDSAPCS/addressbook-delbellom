@@ -31,7 +31,7 @@ public void int numContacts(){
 	
 public int haveContact(String s){
 	//interate through list of friends i=0 to numfriends
-	if (int i=0; i<numfriends; i++)
+	for (int i=0; i<numfriends; i++)
 		if (friends[i].getname().equals(s)) {
 			return i; }
 	else {
@@ -39,7 +39,7 @@ public int haveContact(String s){
 }
  
 	
-public static void main(){
+public static void main(){	
 	System.out.println("1. Add new contact.");
 	System.out.println("2. Deletea a contact.");
 	System.out.println("3. Print out the number of contacts you have.");
@@ -49,7 +49,7 @@ public static void main(){
 }
 public static void main(String[] args){
 		 Scanner sc = new Scanner(System.in)
-		 menu();
+			 menu();
 	// if choice == (  (STILL WORKING, not finished)
 		 int choice = sc.nextInt();
  }

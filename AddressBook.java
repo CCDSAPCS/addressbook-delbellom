@@ -48,11 +48,19 @@ public static void main(){
 	System.out.println("Enter menu choice: ");
 }
 public static void main(String[] args){
-		 Scanner sc = new Scanner(System.in)
+		 Scanner scan = new Scanner(System.in);
+			 AddressBook redbook = new AddressBook();
 			 menu();
 	// if choice == (  (STILL WORKING, not finished)
-		 int choice = sc.nextInt();
+		 int choice = scan.nextInt();
  }
+public static void main(){
+	System.out.println("1. Add Contact")
+		System.out.println("2. Delete Contact")
+		System.out.println("3. Print # of Friends")
+		System.out.println("4. Print All")
+		System.out.println("5. Quit")
+				   
 	
 }
 
